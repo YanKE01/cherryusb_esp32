@@ -1,5 +1,10 @@
-# This file was generated using idf.py save-defconfig. It can be edited manually.
+# This file was generated using idf.py save-defconfig or menuconfig [D] key. It can be edited manually.
+# Espressif IoT Development Framework (ESP-IDF) 6.1.0 Project Minimal Configuration
 #
+# default:
+CONFIG_IDF_TARGET="esp32s31"
+CONFIG_ESP_INT_WDT=n
+CONFIG_ESP_TASK_WDT_EN=n
 CONFIG_CHERRYUSB=y
 CONFIG_CHERRYUSB_DEVICE=y
 CONFIG_CHERRYUSB_DEVICE_CDC_ACM=y

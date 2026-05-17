@@ -1,6 +1,7 @@
 ## IDF Component Manager Manifest File
 dependencies:
-  cherry-embedded/cherryusb: "^1.5.0"
+  CherryUSB:
+    override_path: ../components/cherryusb
   ## Required IDF version
   idf:
     version: ">=4.1.0"
